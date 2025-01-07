@@ -289,8 +289,7 @@ text-decoration-skip-ink: none;
 }
 .result__video-container,
 .content__list {
-  position: relative; 
-
+  position: relative;
 }
 
 ul,
