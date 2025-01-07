@@ -164,7 +164,7 @@ fieldset {
 }
 .search-form__pseudo-checkbox {
   display: inline-block;
-  width: 19px; 
+  width: 19px;
   height: 19px;
   border: 1px solid white;
   position: relative;
@@ -172,12 +172,13 @@ fieldset {
   background-color: transparent;
   margin-top: 6px;
   box-sizing: border-box;
+
 }
 
 .search-form__pseudo-checkbox::after {
   content: '';
-  display: none; 
-  width: 18px; 
+  display: none;
+  width: 18px;
   height: 18px;
   background-color: white;
 }
@@ -196,10 +197,10 @@ fieldset {
   cursor: pointer;
 }
 
-.content__details{
+.content__details {
   margin-top: 60px;
 }
-.title{
+.title {
   font-family: Oswald;
   font-size: 75px;
   font-weight: 700;
@@ -221,23 +222,23 @@ fieldset {
   text-decoration-skip-ink: none;
 
 }
-.content__list{
+.content__list {
   width: 400px;
   height:298px;
   margin-top:22px;
   overflow: scroll;
   padding:3px;
 }
-.content__list-item{
+.content__list-item {
   margin-bottom: 30px;
 }
-.content__video-card{
+.content__video-card {
   display: grid;
   grid-template-columns: 42% 65%;
   grid-gap:30px;
 }
 
-.content__video-card-thumbnail{
+.content__video-card-thumbnail {
   width:194px;
   height: 103px;
   object-fit:fill;
@@ -246,7 +247,7 @@ fieldset {
 .content__video-card-description-container {
   flex-grow: 2;
 }
-.content__card-link{
+.content__card-link {
   display: block;
   text-decoration: none;
   color:white;
@@ -289,6 +290,7 @@ text-decoration-skip-ink: none;
 .result__video-container,
 .content__list {
   position: relative; 
+
 }
 
 ul,
