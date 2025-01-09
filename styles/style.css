@@ -119,9 +119,16 @@ fieldset {
   outline-offset: 1px;
   appearance: none;
 }
+
 .more-button {
   width:390px;
 }
+
+.search-form__label {
+  display: flex;
+  align-items: center;
+}
+
 .search-form__fieldset {
   border: none;
   margin-top: 2px;
@@ -168,6 +175,7 @@ fieldset {
   cursor: pointer;
   background-color: transparent;
   margin-top: 6px;
+  margin-right: 5px;
   box-sizing: border-box;
 }
 
@@ -234,6 +242,7 @@ fieldset {
 .content__accent {
   color: #545050;
 }
+
 .content__video-card-description-container {
   flex-grow: 2;
 }
