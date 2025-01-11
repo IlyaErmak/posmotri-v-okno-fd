@@ -50,7 +50,7 @@ ol {
 
 .result__video {
   width: 711px;
-  height: 386px;
+  height: 381px;
   object-fit:cover;
 }
 
@@ -224,8 +224,8 @@ fieldset {
   margin-top: 20px;
   overflow: auto;
   padding: 3px;
-  width: 410px;
-  height: 300px;
+  width: 400px;
+  height: 299px;
 }
 
 .content__video-card {
