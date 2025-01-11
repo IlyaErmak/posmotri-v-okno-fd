@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-
 }
 
 html {
@@ -295,7 +294,7 @@ fieldset {
 }
 
 .result__video-container,
-.content__details {
+.content__list-container {
   position: relative;
 }
 
