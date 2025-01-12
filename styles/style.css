@@ -262,8 +262,6 @@ fieldset {
   font-weight: 700;
   line-height: 30px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
