@@ -38,14 +38,14 @@ ol {
   display: inline-grid;
   grid-template-columns: 65% 36% ;
   width: 1140px;
-  margin-top: 43px;
+  margin-top: 27px;
   margin-left: 30px;
   align-items: center;
 }
 
 .result {
   width: 712px;
-  margin-top: 80px;
+  margin-top: 53px;
 }
 
 .result__video {
@@ -74,7 +74,6 @@ fieldset {
   grid-gap:35px;
   align-self: flex-start;
   margin-top:13px;
-  
 }
 
 .search-form__fieldset-title {
@@ -120,7 +119,7 @@ fieldset {
 }
 
 .more-button {
-  width:100%;
+  width:298px;
   margin:0px;
 }
 
@@ -221,14 +220,9 @@ fieldset {
 }
 
 .content__list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin-top: 20px;
-  overflow: auto;
-  padding: 3px;
-  width: 399px;
+  display: grid; 
   height: 298px;
+  overflow-x: auto;
 }
 
 .content__video-card {
@@ -296,7 +290,7 @@ fieldset {
 .result__video-container,
 .content__list-container {
   position: relative;
-}
+} 
 
 .content__card-link_current {
   background-color: #545050;
