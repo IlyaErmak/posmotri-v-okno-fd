@@ -220,9 +220,14 @@ fieldset {
 }
 
 .content__list {
-  display: grid; 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  overflow: auto;
+  padding: 3px;
+  width: 399px;
   height: 298px;
-  overflow-x: auto;
 }
 
 .content__video-card {
@@ -290,7 +295,7 @@ fieldset {
 .result__video-container,
 .content__list-container {
   position: relative;
-} 
+}
 
 .content__card-link_current {
   background-color: #545050;
